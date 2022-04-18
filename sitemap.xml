@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://spsrinivas.github.io/gh-pages/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://srinivas.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://spsrinivas.github.io/gh-pages/</loc>
+<loc>https://srinivas.io/</loc>
 </url>
 <url>
-<loc>https://spsrinivas.github.io/gh-pages/authors/srinivas/</loc>
+<loc>https://srinivas.io/authors/srinivas/</loc>
 </url>
 <url>
-<loc>https://spsrinivas.github.io/gh-pages/muda-and-its-relation-to-product-management/</loc>
+<loc>https://srinivas.io/muda-and-its-relation-to-product-management/</loc>
 <lastmod>2020-06-23T20:24:49+05:30</lastmod>
 <image:image>
-<image:loc>https://spsrinivas.github.io/gh-pages/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg</image:loc>
+<image:loc>https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://spsrinivas.github.io/gh-pages/media/posts/7/blog.001.jpeg</image:loc>
+<image:loc>https://srinivas.io/media/posts/7/blog.001.jpeg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://spsrinivas.github.io/gh-pages/products/</loc>
+<loc>https://srinivas.io/products/</loc>
 <lastmod>2021-09-29T13:50:32+05:30</lastmod>
 <image:image>
-<image:loc>https://spsrinivas.github.io/gh-pages/media/posts/6/App-icon-black-512.png</image:loc>
+<image:loc>https://srinivas.io/media/posts/6/App-icon-black-512.png</image:loc>
 <image:title><![CDATA[HitLyst for Twitter]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://spsrinivas.github.io/gh-pages/media/posts/6/popular50Logo.png</image:loc>
+<image:loc>https://srinivas.io/media/posts/6/popular50Logo.png</image:loc>
 <image:title><![CDATA[Popular50 icon]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://spsrinivas.github.io/gh-pages/sri/product-management/</loc>
+<loc>https://srinivas.io/sri/product-management/</loc>
 </url>
 </urlset>

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Srinivas</title>
-    <link href="https://spsrinivas.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://spsrinivas.github.io/gh-pages" />
+    <link href="https://srinivas.io/feed.xml" rel="self" />
+    <link href="https://srinivas.io" />
     <updated>2020-06-23T20:24:49+05:30</updated>
     <author>
         <name>Srinivas</name>
     </author>
-    <id>https://spsrinivas.github.io/gh-pages</id>
+    <id>https://srinivas.io</id>
 
     <entry>
         <title>Muda and it&#x27;s relation to Product Management</title>
         <author>
             <name>Srinivas</name>
         </author>
-        <link href="https://spsrinivas.github.io/gh-pages/muda-and-its-relation-to-product-management/"/>
-        <id>https://spsrinivas.github.io/gh-pages/muda-and-its-relation-to-product-management/</id>
+        <link href="https://srinivas.io/muda-and-its-relation-to-product-management/"/>
+        <id>https://srinivas.io/muda-and-its-relation-to-product-management/</id>
             <category term="Product Management"/>
 
         <updated>2020-06-23T20:24:49+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://spsrinivas.github.io/gh-pages/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
+                        <img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
                     Heart of lean thinking are two words: Value &amp; Waste. The term 'Lean' has its origins in manufacturing of&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://spsrinivas.github.io/gh-pages/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
+                    <img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
                 <p class="dropcap">Heart of lean thinking are two words: Value &amp; Waste. The term 'Lean' has its origins in manufacturing of Toyota production system where the goal was to continuously add value while eliminating waste. Project managers with agile thinking make better connection with terms like 'Muda' (waste), 'Muri' (Overburden) and 'Mura'(Unevenness). As product managers, lean thinking and understanding Muda is required to set goals, ruthlessly prioritise and continuously add value to your users. Ultimately, to ensure you're spending least time, effort &amp; money to deliver what matters the most.  </p>
-<figure class="post__image"><img loading="lazy"  src="https://spsrinivas.github.io/gh-pages/media/posts/7/blog.001.jpeg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://spsrinivas.github.io/gh-pages/media/posts/7/responsive/blog.001-xs.jpeg 300w ,https://spsrinivas.github.io/gh-pages/media/posts/7/responsive/blog.001-sm.jpeg 480w ,https://spsrinivas.github.io/gh-pages/media/posts/7/responsive/blog.001-md.jpeg 768w ,https://spsrinivas.github.io/gh-pages/media/posts/7/responsive/blog.001-xl.jpeg 1200w ,https://spsrinivas.github.io/gh-pages/media/posts/7/responsive/blog.001-xxl.jpeg 1600w ,https://spsrinivas.github.io/gh-pages/media/posts/7/responsive/blog.001-xxxl.jpeg 2560w"  alt="" width="1920" height="1080"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/7/blog.001.jpeg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/7/responsive/blog.001-xs.jpeg 300w ,https://srinivas.io/media/posts/7/responsive/blog.001-sm.jpeg 480w ,https://srinivas.io/media/posts/7/responsive/blog.001-md.jpeg 768w ,https://srinivas.io/media/posts/7/responsive/blog.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxxl.jpeg 2560w"  alt="" width="1920" height="1080"></figure>
 <p>First, lets look at different types of Muda: </p>
 <p><span style="text-decoration: underline;">Muda Type 1:</span> Doesn't add value, but essential for users. </p>
 <p><span style="text-decoration: underline;">Muda Type 2:</span> Doesn't add value and non-essential for users. </p>
