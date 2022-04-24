@@ -3,7 +3,7 @@
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2022-04-24T12:12:52+05:30</updated>
+    <updated>2022-04-24T12:13:52+05:30</updated>
     <author>
         <name>Srinivas</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://srinivas.io/easiest-and-free-way-to-create-free-static-sites/"/>
         <id>https://srinivas.io/easiest-and-free-way-to-create-free-static-sites/</id>
+            <category term="Tech"/>
 
-        <updated>2022-04-24T12:12:52+05:30</updated>
+        <updated>2022-04-24T12:13:52+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/10/Upgrade.png" alt="" />
