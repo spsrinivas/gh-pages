@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2022-04-30T12:57:28+05:30</updated>
+    <updated>2022-04-30T15:27:28+08:00</updated>
     <author>
         <name>Srinivas</name>
     </author>
@@ -16,9 +16,10 @@
         </author>
         <link href="https://srinivas.io/new-market-opportunity-payment-orchestration/"/>
         <id>https://srinivas.io/new-market-opportunity-payment-orchestration/</id>
+        <media:content url="https://srinivas.io/media/posts/12/jaconda-45.png" medium="image" />
             <category term="Tech"/>
 
-        <updated>2022-04-30T12:22:10+05:30</updated>
+        <updated>2022-04-30T14:52:10+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/12/jaconda-45.png" alt="" />
@@ -27,11 +28,11 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://srinivas.io/media/posts/12/jaconda-45.png" alt="" />
+                    <p><img src="https://srinivas.io/media/posts/12/jaconda-45.png" class="type:primaryImage" alt="" /></p>
                 <p>Payment orchestration for global e-commerce is expected to grow 20% YoY from 2021 to 2026. For any online business that needs to offer multiple payment options for customers worldwide, payment orchestration is a valuable service. If you’re new to this payment topic, keep reading to learn what payment orchestration is, the benefits of using this service, and how it works for businesses.  </p>
 <h3>Terminology</h3>
 <p>For easier understanding, it's better to get some terms right.  </p>
-<figure class="post__image align-center"><img loading="lazy"  src="https://srinivas.io/media/posts/12/psp2.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/psp2-xs.png 300w ,https://srinivas.io/media/posts/12/responsive/psp2-sm.png 480w ,https://srinivas.io/media/posts/12/responsive/psp2-md.png 768w ,https://srinivas.io/media/posts/12/responsive/psp2-xl.png 1200w ,https://srinivas.io/media/posts/12/responsive/psp2-xxl.png 1600w ,https://srinivas.io/media/posts/12/responsive/psp2-xxxl.png 2560w"  alt="" width="234" height="390"></figure>
+<figure class="post__image align-center"><img loading="lazy"  src="https://srinivas.io/media/posts/12/psp2.png" alt="" width="234" height="390" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/psp2-xs.png 300w ,https://srinivas.io/media/posts/12/responsive/psp2-sm.png 480w ,https://srinivas.io/media/posts/12/responsive/psp2-md.png 768w ,https://srinivas.io/media/posts/12/responsive/psp2-xl.png 1200w ,https://srinivas.io/media/posts/12/responsive/psp2-xxl.png 1600w ,https://srinivas.io/media/posts/12/responsive/psp2-xxxl.png 2560w"></figure>
 <p><span style="color: #ffffff;">Payment Service Provider(PSP): </span>A payment service provider is a financial institution that enables an online transaction. It links merchants with card networks and payment processors for payment processing. A PSP provides a merchant account and payment gateway for the collection and management of payments.</p>
 <p><span style="color: #ffffff;">Payment Gateway:</span> Payment gateway is a software behind credit card transactions between a merchant and their customers. Upon entering the payment information on the merchant’s website, the payment gateway connects to the payment service provider to process the transaction.</p>
 <p><span style="color: #ffffff;">Payment Method: </span>This is how you choose to pay. Most popular methods are Credit cards, Debit Cards, Internet Banking, Paypal, e-Wallets etc </p>
@@ -64,17 +65,17 @@
 <li>Offer standardised checkout page </li>
 </ol>
 <p>Just imagine to control something like this using UI within browser rather than writing hundreds of lines of code:</p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/PoP.001.jpeg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/PoP.001-xs.jpeg 300w ,https://srinivas.io/media/posts/12/responsive/PoP.001-sm.jpeg 480w ,https://srinivas.io/media/posts/12/responsive/PoP.001-md.jpeg 768w ,https://srinivas.io/media/posts/12/responsive/PoP.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/12/responsive/PoP.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/12/responsive/PoP.001-xxxl.jpeg 2560w"  alt="" width="1920" height="1080"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/PoP.001.jpeg" alt="" width="1920" height="1080" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/PoP.001-xs.jpeg 300w ,https://srinivas.io/media/posts/12/responsive/PoP.001-sm.jpeg 480w ,https://srinivas.io/media/posts/12/responsive/PoP.001-md.jpeg 768w ,https://srinivas.io/media/posts/12/responsive/PoP.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/12/responsive/PoP.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/12/responsive/PoP.001-xxxl.jpeg 2560w"></figure>
 <h3>Some Players</h3>
 <p>Many startups have been experimenting, trying to match market-product fit etc. Some of them are: </p>
 <p>1. <a href="https://primer.io" target="_blank" rel="noopener noreferrer">Primer</a>: Recently raised $50 million dollars in Series B. Primer, which was founded in 2020 by former Braintree colleagues Anthony and Gabriel Le Roux, allows merchants to plug in third-party payment solutions with one-click connections and integrations.</p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png.webp" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xs.webp 300w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-sm.webp 480w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-md.webp 768w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xl.webp 1200w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xxl.webp 1600w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xxxl.webp 2560w"  alt="" width="523" height="275"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png.webp" alt="" width="523" height="275" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xs.webp 300w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-sm.webp 480w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-md.webp 768w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xl.webp 1200w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xxl.webp 1600w ,https://srinivas.io/media/posts/12/responsive/og-image-4f2639cae8a2a7e73e37eec8e788cac9.png-xxxl.webp 2560w"></figure>
 <p>2. <a href="https://gr4vy.com" target="_blank" rel="noopener noreferrer">Gr4vy</a> : Recently raised about $11million Series A and $15 Series extension funding and it claims to have doubled its valuation to $115million. "<em>Gr4vy</em> is the only payment orchestration platform built natively in the Cloud giving you scale and control of your payment stack from anywhere." </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/Gr4vy_Logo.jpg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xs.jpg 300w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-sm.jpg 480w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-md.jpg 768w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xl.jpg 1200w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xxl.jpg 1600w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xxxl.jpg 2560w"  alt="" width="475" height="249"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/Gr4vy_Logo.jpg" alt="" width="475" height="249" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xs.jpg 300w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-sm.jpg 480w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-md.jpg 768w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xl.jpg 1200w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xxl.jpg 1600w ,https://srinivas.io/media/posts/12/responsive/Gr4vy_Logo-xxxl.jpg 2560w"></figure>
 <p>3. <a href="https://www.spreedly.com" target="_blank" rel="noopener noreferrer">Spreedly</a>: Probably one of the first payment orchestration firms. Spreedly has hundreds of customers and looks very promising. </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/Spreedly.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/Spreedly-xs.png 300w ,https://srinivas.io/media/posts/12/responsive/Spreedly-sm.png 480w ,https://srinivas.io/media/posts/12/responsive/Spreedly-md.png 768w ,https://srinivas.io/media/posts/12/responsive/Spreedly-xl.png 1200w ,https://srinivas.io/media/posts/12/responsive/Spreedly-xxl.png 1600w ,https://srinivas.io/media/posts/12/responsive/Spreedly-xxxl.png 2560w"  alt="" width="760" height="267"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/Spreedly.png" alt="" width="760" height="267" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/Spreedly-xs.png 300w ,https://srinivas.io/media/posts/12/responsive/Spreedly-sm.png 480w ,https://srinivas.io/media/posts/12/responsive/Spreedly-md.png 768w ,https://srinivas.io/media/posts/12/responsive/Spreedly-xl.png 1200w ,https://srinivas.io/media/posts/12/responsive/Spreedly-xxl.png 1600w ,https://srinivas.io/media/posts/12/responsive/Spreedly-xxxl.png 2560w"></figure>
 <p>4. <a href="https://wowpay.io" target="_blank" rel="noopener noreferrer">Wowpay</a>: New &amp; promising player focussed more on Asia Pacific integrations and payments and focus on airlines. </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/wowpay-logo-colour.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xs.png 300w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-sm.png 480w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-md.png 768w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xl.png 1200w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xxl.png 1600w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xxxl.png 2560w"  alt="" width="4725" height="1168"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/12/wowpay-logo-colour.png" alt="" width="4725" height="1168" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xs.png 300w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-sm.png 480w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-md.png 768w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xl.png 1200w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xxl.png 1600w ,https://srinivas.io/media/posts/12/responsive/wowpay-logo-colour-xxxl.png 2560w"></figure>
 <h3>Conclusion:</h3>
 <p>I believe there's opportunity and market for many PoPs to bring real value to online merchants. And provide more features like payment analytics, intelligent routing using machine learning, fraud prevention, one-click payments etc.  </p>
 <p> </p>
@@ -88,9 +89,10 @@
         </author>
         <link href="https://srinivas.io/10-best-product-management-books/"/>
         <id>https://srinivas.io/10-best-product-management-books/</id>
+        <media:content url="https://srinivas.io/media/posts/11/undraw_Reading_list_re_bk72.png" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2022-04-28T21:48:59+05:30</updated>
+        <updated>2022-04-29T00:18:59+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/11/undraw_Reading_list_re_bk72.png" alt="" />
@@ -99,7 +101,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://srinivas.io/media/posts/11/undraw_Reading_list_re_bk72.png" alt="" />
+                    <p><img src="https://srinivas.io/media/posts/11/undraw_Reading_list_re_bk72.png" class="type:primaryImage" alt="" /></p>
                 <p>I play video games, a lot. Well, at least I used to. When I did, my biggest confusion was how do I choose and buy the best game. After all, each Nintendo Switch game costs about $60 and it ain't cheap when you compare it with PS4/5 or Xbox. </p>
 <p>In my research I found my best source of choosing a game was <a href="https://kotaku.com" target="_blank" rel="noopener noreferrer">Kotaku</a>'s "The Bests". Kotaku started this on 3rd May 2017 and continously update the list. At the bottom of the article, they mention when a game was added and removed, thereby creating an entire list in one article. So if I missed out one of the best games from 2019, I can still access it from a one article.  </p>
 <p>Why are we talking about video games? I just wanted to start something similar to Kotaku but for Product Management books. May be a little less exciting than video games. But I'll try and update this list, may be at least once a quarter and post the updates at the bottom. </p>
@@ -127,9 +129,10 @@
         </author>
         <link href="https://srinivas.io/easiest-and-free-way-to-create-free-static-sites/"/>
         <id>https://srinivas.io/easiest-and-free-way-to-create-free-static-sites/</id>
+        <media:content url="https://srinivas.io/media/posts/10/Upgrade.png" medium="image" />
             <category term="Tech"/>
 
-        <updated>2022-04-24T12:24:50+05:30</updated>
+        <updated>2022-04-24T14:54:50+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/10/Upgrade.png" alt="" />
@@ -138,7 +141,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://srinivas.io/media/posts/10/Upgrade.png" alt="" />
+                    <p><img src="https://srinivas.io/media/posts/10/Upgrade.png" class="type:primaryImage" alt="" /></p>
                 <p><span style="color: #ffffff;"><strong>Question</strong></span>: Why are some bloggers so successful? </p>
 <p><span style="color: #ffffff;"><strong>Answer</strong></span>: Quality content. They care about content, quality of writing, images, videos etc. They don't care about perfect design or a static website solution. </p>
 <p>Having said that, if you're looking for a simple and free way to host a static website, here are some ways (with some code &amp; no-code) ways.</p>
@@ -155,7 +158,7 @@
 <p class="msg msg--highlight ">Pro Tip: Checkout <a href="https://www.expireddomains.net">https://www.expireddomains.net</a> for picking deleted or expired domains. </p>
 <h3>1. Publii </h3>
 <p>I made this website using <a href="https://getpublii.com" target="_blank" rel="noopener noreferrer">Publii</a>. I've tried and tested many, many ways of hosting a static website and Publii is a strong competitor to Wordpress.  </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/10/publii-cms.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/10/responsive/publii-cms-xs.png 300w ,https://srinivas.io/media/posts/10/responsive/publii-cms-sm.png 480w ,https://srinivas.io/media/posts/10/responsive/publii-cms-md.png 768w ,https://srinivas.io/media/posts/10/responsive/publii-cms-xl.png 1200w ,https://srinivas.io/media/posts/10/responsive/publii-cms-xxl.png 1600w ,https://srinivas.io/media/posts/10/responsive/publii-cms-xxxl.png 2560w"  alt="" width="1398" height="761"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/10/publii-cms.png" alt="" width="1398" height="761" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/10/responsive/publii-cms-xs.png 300w ,https://srinivas.io/media/posts/10/responsive/publii-cms-sm.png 480w ,https://srinivas.io/media/posts/10/responsive/publii-cms-md.png 768w ,https://srinivas.io/media/posts/10/responsive/publii-cms-xl.png 1200w ,https://srinivas.io/media/posts/10/responsive/publii-cms-xxl.png 1600w ,https://srinivas.io/media/posts/10/responsive/publii-cms-xxxl.png 2560w"></figure>
 <p>Publii allows users of any skill level, even absolute beginners with no knowledge of web-development, to create a stylish yet fast-loading site that’s secure enough to not require constant maintenance and monitoring. Also, to maintain a flexible and expandable open-source core that allows more experienced developers to take full control of their site functionality, creating their own components and themes that fit their requirements exactly.</p>
 <p>Checkout Publii step by step documentation and choose free servers including: </p>
 <ol>
@@ -167,7 +170,7 @@
 <p>...and many more </p>
 <p>I've tried Netlify for hosting but it was unreliable with few themes so I'm now trying out Cloudflare</p>
 <h3>2. Lektor</h3>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/10/Screenshot-2022-04-24-at-11.50.04-AM.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xs.png 300w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-sm.png 480w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-md.png 768w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xl.png 1200w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xxl.png 1600w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xxxl.png 2560w"  alt="" width="2006" height="1240"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/10/Screenshot-2022-04-24-at-11.50.04-AM.png" alt="" width="2006" height="1240" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xs.png 300w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-sm.png 480w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-md.png 768w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xl.png 1200w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xxl.png 1600w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.50.04-AM-xxxl.png 2560w"></figure>
 <p> </p>
 <p><a href="https://www.getlektor.com" target="_blank" rel="noopener noreferrer">Lektor</a> is another great tool for static websites. It's open source, secure, well maintained, well documented with tons of themes and plugins. In their own words: </p>
 <blockquote>
@@ -175,7 +178,7 @@
 </blockquote>
 <p>Lektor provides a browser based admin interface, it's configurable, and you can also collaborate &amp; synchronise. </p>
 <h3>3. Jekyll &amp; Github pages</h3>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/10/Screenshot-2022-04-24-at-11.53.29-AM.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xs.png 300w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-sm.png 480w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-md.png 768w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xl.png 1200w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xxl.png 1600w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xxxl.png 2560w"  alt="" width="2692" height="1444"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/10/Screenshot-2022-04-24-at-11.53.29-AM.png" alt="" width="2692" height="1444" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xs.png 300w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-sm.png 480w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-md.png 768w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xl.png 1200w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xxl.png 1600w ,https://srinivas.io/media/posts/10/responsive/Screenshot-2022-04-24-at-11.53.29-AM-xxxl.png 2560w"></figure>
 <p>For not-so-beginners or someone who's willing to spend couple of hours, <a href="https://jekyllrb.com/docs/" target="_blank" rel="noopener noreferrer">Jekyll</a> + <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">Github pages</a> is a fantastic way to host static websites. </p>
 <p>You get best security, CMS, custom URLs, Guides and everything you need for a good blog. </p>
 <h3>4. Others</h3>
@@ -194,9 +197,10 @@
         </author>
         <link href="https://srinivas.io/market-product-fit-yup-you-read-it-right/"/>
         <id>https://srinivas.io/market-product-fit-yup-you-read-it-right/</id>
+        <media:content url="https://srinivas.io/media/posts/9/1PXWt0T0ha1IWikK2sV5jhw.gif-2.jpeg" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2022-04-30T12:57:28+05:30</updated>
+        <updated>2022-04-30T15:27:28+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/9/1PXWt0T0ha1IWikK2sV5jhw.gif-2.jpeg" alt="" />
@@ -205,16 +209,16 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://srinivas.io/media/posts/9/1PXWt0T0ha1IWikK2sV5jhw.gif-2.jpeg" alt="" />
+                    <p><img src="https://srinivas.io/media/posts/9/1PXWt0T0ha1IWikK2sV5jhw.gif-2.jpeg" class="type:primaryImage" alt="" /></p>
                 <p><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Product/market fit has been identified as a first step to building a successful product in which the company meets early adopters, gathers feedback and gauges interest in its product(s).</span></p>
 <p>Don Valentine of Sequoia Capital coined the term Product/Market fit. Andy Rachleff, the  co-founder of Benchmark capital was the person <em>credited</em> with coining the term product-market fit. </p>
 <p>When new(or old) product manager look at product-market fit, they always look at product first but in reality it always helps to look at market first. </p>
 <h2>Why do products fail ? </h2>
 <p> </p>
 <p>According to Startup Genome, failure rate of startups is a staggering 70% by end of 10th year. </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/9/2.-ProductCustomer-Driven.001.jpeg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xs.jpeg 300w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-sm.jpeg 480w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-md.jpeg 768w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xxxl.jpeg 2560w"  alt="" width="1920" height="1080"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/9/2.-ProductCustomer-Driven.001.jpeg" alt="" width="1920" height="1080" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xs.jpeg 300w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-sm.jpeg 480w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-md.jpeg 768w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven.001-xxxl.jpeg 2560w"></figure>
 <p>Why is this ? Well, </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/9/2.-ProductCustomer-Driven1.001.jpeg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xs.jpeg 300w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-sm.jpeg 480w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-md.jpeg 768w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xxxl.jpeg 2560w"  alt="" width="1920" height="1080"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/9/2.-ProductCustomer-Driven1.001.jpeg" alt="" width="1920" height="1080" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xs.jpeg 300w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-sm.jpeg 480w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-md.jpeg 768w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/9/responsive/2.-ProductCustomer-Driven1.001-xxxl.jpeg 2560w"></figure>
 <p>One of the top reasons for product/startup failure is Product-Market fit. Is it because we're product first and not market first? </p>
 <h2>Looking at product vs market first: </h2>
 <p>When you're making an MVP, you're essentially making effort to validate your assumption that your product is going to be worthy to the user or solve a problem. And When you imagine a product first, you first think of: </p>
@@ -239,7 +243,7 @@
 </ol>
 <h2>Value hypothesis &amp; Growth Hypothesis</h2>
 <p>Too often, founders, product managers, stake holders start with conclusions, not assumptions. The former is a set of beliefs, while the latter are fundamental questions to be answered. On the surface, that sounds like a nuanced difference, but in practice, it is a huge change in mindset and action. </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/9/value-and-growth.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/9/responsive/value-and-growth-xs.png 300w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-sm.png 480w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-md.png 768w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-xl.png 1200w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-xxl.png 1600w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-xxxl.png 2560w"  alt="" width="645" height="451"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/9/value-and-growth.png" alt="" width="645" height="451" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/9/responsive/value-and-growth-xs.png 300w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-sm.png 480w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-md.png 768w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-xl.png 1200w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-xxl.png 1600w ,https://srinivas.io/media/posts/9/responsive/value-and-growth-xxxl.png 2560w"></figure>
 <p>The <strong>value hypothesis</strong> tests whether your product or service provides customers with enough value and most importantly, whether they are prepared to pay for this value.</p>
 <p>Example:</p>
 <p>Lets say you're developing a payment analytics product</p>
@@ -276,9 +280,10 @@
         </author>
         <link href="https://srinivas.io/muda-and-its-relation-to-product-management/"/>
         <id>https://srinivas.io/muda-and-its-relation-to-product-management/</id>
+        <media:content url="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2020-06-23T20:24:49+05:30</updated>
+        <updated>2020-06-23T22:54:49+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
@@ -287,9 +292,9 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
+                    <p><img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" class="type:primaryImage" alt="" /></p>
                 <p class="dropcap">Heart of lean thinking are two words: Value &amp; Waste. The term 'Lean' has its origins in manufacturing of Toyota production system where the goal was to continuously add value while eliminating waste. Project managers with agile thinking make better connection with terms like 'Muda' (waste), 'Muri' (Overburden) and 'Mura'(Unevenness). As product managers, lean thinking and understanding Muda is required to set goals, ruthlessly prioritise and continuously add value to your users. Ultimately, to ensure you're spending least time, effort &amp; money to deliver what matters the most.  </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/7/blog.001.jpeg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/7/responsive/blog.001-xs.jpeg 300w ,https://srinivas.io/media/posts/7/responsive/blog.001-sm.jpeg 480w ,https://srinivas.io/media/posts/7/responsive/blog.001-md.jpeg 768w ,https://srinivas.io/media/posts/7/responsive/blog.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxxl.jpeg 2560w"  alt="" width="1920" height="1080"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/7/blog.001.jpeg" alt="" width="1920" height="1080" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/7/responsive/blog.001-xs.jpeg 300w ,https://srinivas.io/media/posts/7/responsive/blog.001-sm.jpeg 480w ,https://srinivas.io/media/posts/7/responsive/blog.001-md.jpeg 768w ,https://srinivas.io/media/posts/7/responsive/blog.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxxl.jpeg 2560w"></figure>
 <p>First, lets look at different types of Muda: </p>
 <p><span style="text-decoration: underline;">Muda Type 1:</span> Doesn't add value, but essential for users. </p>
 <p><span style="text-decoration: underline;">Muda Type 2:</span> Doesn't add value and non-essential for users. </p>
