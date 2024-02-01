@@ -3,7 +3,7 @@
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2023-12-09T12:53:50+08:00</updated>
+    <updated>2024-02-01T17:28:30+08:00</updated>
     <author>
         <name>Srinivas</name>
     </author>
@@ -393,7 +393,7 @@
         <media:content url="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2020-06-23T22:54:49+08:00</updated>
+        <updated>2024-02-01T17:28:30+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
@@ -403,81 +403,81 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" class="type:primaryImage" alt="" /></p>
-                <p class="dropcap">Heart of lean thinking are two words: Value &amp; Waste. The term 'Lean' has its origins in manufacturing of Toyota production system where the goal was to continuously add value while eliminating waste. Project managers with agile thinking make better connection with terms like 'Muda' (waste), 'Muri' (Overburden) and 'Mura'(Unevenness). As product managers, lean thinking and understanding Muda is required to set goals, ruthlessly prioritise and continuously add value to your users. Ultimately, to ensure you're spending least time, effort &amp; money to deliver what matters the most.  </p>
-<figure class="post__image"><img loading="lazy"  src="https://srinivas.io/media/posts/7/blog.001.jpeg" alt="" width="1920" height="1080" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/7/responsive/blog.001-xs.jpeg 300w ,https://srinivas.io/media/posts/7/responsive/blog.001-sm.jpeg 480w ,https://srinivas.io/media/posts/7/responsive/blog.001-md.jpeg 768w ,https://srinivas.io/media/posts/7/responsive/blog.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxxl.jpeg 2560w"></figure>
-<p>First, lets look at different types of Muda: </p>
-<p><span style="text-decoration: underline;">Muda Type 1:</span> Doesn't add value, but essential for users. </p>
-<p><span style="text-decoration: underline;">Muda Type 2:</span> Doesn't add value and non-essential for users. </p>
-<h3>Muda Type 1: </h3>
-<p>Let's say you are a PM, designing a car for emerging markets. You start listing down benefits (or value proposition) : </p>
+                <p class="dropcap"><span style="color: #ffffff;">Heart of lean thinking are two words: Value &amp; Waste. The term 'Lean' has its origins in manufacturing of Toyota production system where the goal was to continuously add value while eliminating waste. Project managers with agile thinking make better connection with terms like 'Muda' (waste), 'Muri' (Overburden) and 'Mura'(Unevenness). As product managers, lean thinking and understanding Muda is required to set goals, ruthlessly prioritise and continuously add value to your users. Ultimately, to ensure you're spending least time, effort &amp; money to deliver what matters the most.  </span></p>
+<figure class="post__image"><span style="color: #ffffff;"><img loading="lazy"  src="https://srinivas.io/media/posts/7/blog.001.jpeg" alt="" width="1920" height="1080" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://srinivas.io/media/posts/7/responsive/blog.001-xs.jpeg 300w ,https://srinivas.io/media/posts/7/responsive/blog.001-sm.jpeg 480w ,https://srinivas.io/media/posts/7/responsive/blog.001-md.jpeg 768w ,https://srinivas.io/media/posts/7/responsive/blog.001-xl.jpeg 1200w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxl.jpeg 1600w ,https://srinivas.io/media/posts/7/responsive/blog.001-xxxl.jpeg 2560w"></figure></span></p>
+<p><span style="color: #ffffff;">First, lets look at different types of Muda: </span></p>
+<p><span style="color: #ffffff;"><span style="text-decoration: underline;">Muda Type 1:</span> Doesn't add value, but essential for users. </span></p>
+<p><span style="color: #ffffff;"><span style="text-decoration: underline;">Muda Type 2:</span> Doesn't add value and non-essential for users. </span></p>
+<h3><span style="color: #ffffff;">Muda Type 1: </span></h3>
+<p><span style="color: #ffffff;">Let's say you are a PM, designing a car for emerging markets. You start listing down benefits (or value proposition) : </span></p>
 <ol class="ordered-list">
-<li>Mileage of at least 20km per litre of petrol and 25km per litre of diesel</li>
-<li>Safety features for all 5 seats </li>
-<li>In-built navigation support </li>
-<li>Intelligent Surround sound system  </li>
-<li>Save time in parking </li>
-<li>Maximising space</li>
-<li>3 sec acceleration to 100km/h </li>
+<li><span style="color: #ffffff;">Mileage of at least 20km per litre of petrol and 25km per litre of diesel</span></li>
+<li><span style="color: #ffffff;">Safety features for all 5 seats </span></li>
+<li><span style="color: #ffffff;">In-built navigation support </span></li>
+<li><span style="color: #ffffff;">Intelligent Surround sound system  </span></li>
+<li><span style="color: #ffffff;">Save time in parking </span></li>
+<li><span style="color: #ffffff;">Maximising space</span></li>
+<li><span style="color: #ffffff;">3 sec acceleration to 100km/h </span></li>
 </ol>
-<p>Using lean process, one way of prioritising benefits is by differentiating benefits into 3 bigger buckets: Cost of entry, value proposition and delight factors  </p>
+<p><span style="color: #ffffff;">Using lean process, one way of prioritising benefits is by differentiating benefits into 3 bigger buckets: Cost of entry, value proposition and delight factors  </span></p>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td class="align-center" style="width: 50%;">Cost of Entry </td>
-<td style="width: 50%;">Mileage </td>
+<td class="align-center" style="width: 50%;"><span style="color: #ffffff;">Cost of Entry </span></td>
+<td style="width: 50%;"><span style="color: #ffffff;">Mileage </span></td>
 </tr>
 <tr>
 <td style="width: 50%;"> </td>
-<td style="width: 50%;">Maximising space </td>
+<td style="width: 50%;"><span style="color: #ffffff;">Maximising space </span></td>
 </tr>
 <tr>
 <td style="width: 50%;"> </td>
-<td style="width: 50%;">Safety features </td>
+<td style="width: 50%;"><span style="color: #ffffff;">Safety features </span></td>
 </tr>
 <tr>
-<td class="align-center" style="width: 50%;">Value proposition </td>
-<td style="width: 50%;">Navigation support</td>
+<td class="align-center" style="width: 50%;"><span style="color: #ffffff;">Value proposition </span></td>
+<td style="width: 50%;"><span style="color: #ffffff;">Navigation support</span></td>
 </tr>
 <tr>
 <td style="width: 50%;"> </td>
-<td style="width: 50%;">Surround system</td>
+<td style="width: 50%;"><span style="color: #ffffff;">Surround system</span></td>
 </tr>
 <tr>
-<td class="align-center" style="width: 50%;">Delight</td>
-<td style="width: 50%;">Parking time </td>
+<td class="align-center" style="width: 50%;"><span style="color: #ffffff;">Delight</span></td>
+<td style="width: 50%;"><span style="color: #ffffff;">Parking time </span></td>
 </tr>
 </tbody>
 </table>
-<p>"Cost of Entry" is Muda Type 1 - a necessary evil, meaning - most of your competitors are already providing these features. Unless you provide the "cost of entry" benefits to your target users, it might not be called a car. Think of it more like a cover charge for a pub you are going to for New years' party. </p>
-<p>Benefits which DOES NOT add value but essential to your users. </p>
-<h3>Muda Type 2:</h3>
-<p>Let's look at benefit 6 &amp; 7.</p>
-<p>- 3 sec acceleration to 100km/h to the target market - emerging markets. Do users really care about precision acceleration in emerging markets ? </p>
-<p>- If Parking time benefit is mapped to self-parking feature, would driver really care about it or argue against the practicality of this feature?</p>
-<p>These are classic example of Muda type 2, doesn't add value and non-essential for users.</p>
-<h3>Product Managers' time &amp; Muda </h3>
-<p>Time management can make or break a product manager in her job. A product manager is never "done", and end-up spending time, effort, money to deliver. If you are a PM, you must have heard the line "Strategy means saying no". In Steve Jobs words: </p>
+<p><span style="color: #ffffff;">"Cost of Entry" is Muda Type 1 - a necessary evil, meaning - most of your competitors are already providing these features. Unless you provide the "cost of entry" benefits to your target users, it might not be called a car. Think of it more like a cover charge for a pub you are going to for New years' party. </span></p>
+<p><span style="color: #ffffff;">Benefits which DOES NOT add value but essential to your users. </span></p>
+<h3><span style="color: #ffffff;">Muda Type 2:</span></h3>
+<p><span style="color: #ffffff;">Let's look at benefit 6 &amp; 7.</span></p>
+<p><span style="color: #ffffff;">- 3 sec acceleration to 100km/h to the target market - emerging markets. Do users really care about precision acceleration in emerging markets ? </span></p>
+<p><span style="color: #ffffff;">- If Parking time benefit is mapped to self-parking feature, would driver really care about it or argue against the practicality of this feature?</span></p>
+<p><span style="color: #ffffff;">These are classic example of Muda type 2, doesn't add value and non-essential for users.</span></p>
+<h3><span style="color: #ffffff;">Product Managers' time &amp; Muda </span></h3>
+<p><span style="color: #ffffff;">Time management can make or break a product manager in her job. A product manager is never "done", and end-up spending time, effort, money to deliver. If you are a PM, you must have heard the line "Strategy means saying no". In Steve Jobs words: </span></p>
 <blockquote>
-<p class="quoteText">People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.</p>
-<p>- Steve Jobs.</p>
+<p class="quoteText"><span style="color: #ffffff;">People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.</span></p>
+<p><span style="color: #ffffff;">- Steve Jobs.</span></p>
 </blockquote>
-<p>So what can we do to apply lean thinking and "eliminate muda" in our jobs  ? </p>
-<h6>1. Time management</h6>
-<p>- Razor sharp focus in meetings (Remember: Agile tells you "individuals and interactions over processes and tools"), balancing interactions and time in meetings. </p>
-<p>- Pomodoro technique - 25min for a single task, break for 5min - repeat </p>
-<p>- Strategy planning and roadmapping to ensure minimal waste in answering the what and why questions </p>
-<h6>2. Effort </h6>
-<p>- It's best to do one thing really well. Prioritise benefits and features ruthlessly, use value vs effort matrix in lean process to prioritise </p>
-<p>- SMART Goals setting. Use established frameworks like OGSM and OKRs to set goals</p>
-<p>- Engineering effort, documentation:</p>
-<p>Do you really need certain tools, documentation and resources ? Ask yourself from wastage standpoint: </p>
+<p><span style="color: #ffffff;">So what can we do to apply lean thinking and "eliminate muda" in our jobs  ? </span></p>
+<h6><span style="color: #ffffff;">1. Time management</span></h6>
+<p><span style="color: #ffffff;">- Razor sharp focus in meetings (Remember: Agile tells you "individuals and interactions over processes and tools"), balancing interactions and time in meetings. </span></p>
+<p><span style="color: #ffffff;">- Pomodoro technique - 25min for a single task, break for 5min - repeat </span></p>
+<p><span style="color: #ffffff;">- Strategy planning and roadmapping to ensure minimal waste in answering the what and why questions </span></p>
+<h6><span style="color: #ffffff;">2. Effort </span></h6>
+<p><span style="color: #ffffff;">- It's best to do one thing really well. Prioritise benefits and features ruthlessly, use value vs effort matrix in lean process to prioritise </span></p>
+<p><span style="color: #ffffff;">- SMART Goals setting. Use established frameworks like OGSM and OKRs to set goals</span></p>
+<p><span style="color: #ffffff;">- Engineering effort, documentation:</span></p>
+<p><span style="color: #ffffff;">Do you really need certain tools, documentation and resources ? Ask yourself from wastage standpoint: </span></p>
 <ol class="ordered-list">
-<li>Do you really want to spend time, money and effort in managing a Hive or would BigQuery/Redshift do the job? </li>
-<li>Do you really need comprehensive documentation in describing functional and non-functional requirements or would "INVEST" user story with appropriate acceptance criteria save everyones time ? </li>
-<li>Do you really need to do sprint retrospectives every sprint or once in two sprints is good enough ? </li>
+<li><span style="color: #ffffff;">Do you really want to spend time, money and effort in managing a Hive or would BigQuery/Redshift do the job? </span></li>
+<li><span style="color: #ffffff;">Do you really need comprehensive documentation in describing functional and non-functional requirements or would "INVEST" user story with appropriate acceptance criteria save everyones time ? </span></li>
+<li><span style="color: #ffffff;">Do you really need to do sprint retrospectives every sprint or once in two sprints is good enough ? </span></li>
 </ol>
-<h3>In conclusion: </h3>
-<p>Simply put Muda is waste, however it's background is much deeper. Take a moment to understand what it really means and you will be wiser for it - it can be time, effort, money, environment, sustainability etc. It's easier to save a minute but impossible to make one.  </p>
+<h3><span style="color: #ffffff;">In conclusion: </span></h3>
+<p><span style="color: #ffffff;">Simply put Muda is waste, however it's background is much deeper. Take a moment to understand what it really means and you will be wiser for it - it can be time, effort, money, environment, sustainability etc. It's easier to save a minute but impossible to make one.  </span></p>
 <p> </p>
             ]]>
         </content>
