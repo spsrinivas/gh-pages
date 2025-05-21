@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://srinivas.io/how-i-built-an-ai-engineering-observer-that-scans-github-and-summarizes-what-matters/",
+            "url": "https://srinivas.io/how-i-built-an-ai-engineering-observer-that-scans-github-and-summarizes-what-matters/",
+            "title": "How I Built an AI Engineering Observer That Scans GitHub and Summarizes What Matters",
+            "summary": "A real-world walkthrough of turning engineering activity into GPT-powered weekly insight reports (without dashboards or manual digging) Most engineering&hellip;",
+            "content_html": "<h4 data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">A real-world walkthrough of turning engineering activity into GPT-powered weekly insight reports (without dashboards or manual digging)</span></h4>\n<p data-pm-slice=\"1 1 []\"> </p>\n<p data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">Most engineering managers I know don’t want another dashboard.</span></p>\n<p><span style=\"color: #ffffff;\">They want answers. They want clarity. They want to know:</span></p>\n<ul>\n<li><span style=\"color: #ffffff;\">What’s slowing my team down?</span></li>\n<li><span style=\"color: #ffffff;\">Is someone overloaded?</span></li>\n<li><span style=\"color: #ffffff;\">Are we following good engineering hygiene?</span></li>\n</ul>\n<p><span style=\"color: #ffffff;\">And most importantly:</span></p>\n<blockquote>\n<p><span style=\"color: #ffffff;\">\"Can someone just tell me what matters this week—without me digging through GitHub or Jira?\"</span></p>\n</blockquote>\n<p><span style=\"color: #ffffff;\">So I built it. A lightweight, AI-powered <strong>observer</strong> that connects to GitHub, scans real activity, and summarizes what happened, why it matters, and what to do—automatically.</span></p>\n<p><span style=\"color: #ffffff;\">This isn’t a theoretical demo or a GPT playground. This is a production script running against a real company's GitHub data. Here’s how it works.</span></p>\n<div><hr></div>\n<h3><span style=\"color: #ffffff;\">Step 1: Connect to the Real World (GitHub Data)</span></h3>\n<p><span style=\"color: #ffffff;\">In my case, I had access to the GitView production Postgres database, which syncs GitHub activity: pull requests, commits, contributor info, reviews.</span></p>\n<p><span style=\"color: #ffffff;\">Instead of connecting to GitHub APIs directly (which you could), I just queried the database like this:</span></p>\n<pre class=\"language-sql\"><code>SELECT id, title, created_at, state, contributor_id\nFROM pull_requests\nWHERE created_at &gt;= CURRENT_DATE - INTERVAL '7 days';</code></pre>\n<p data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">We also fetched contributor names, commit counts, and merged PRs without reviews</span></p>\n<h3 data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">Step 2: Shape the Data for GPT</span></h3>\n<p><span style=\"color: #ffffff;\">GPT can't make sense of raw DB tables. So we format the data into structured JSON, limited to the top 10 entries in each section:</span></p>\n<pre class=\"language-sql\"><code>{\n  \"stuck_pull_requests\": [...],\n  \"commit_activity\": [...],\n  \"contributors_with_no_commits\": [...]\n}</code></pre>\n<p data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">We also fetched contributor names, commit counts, and merged PRs without reviews.</span></p>\n<h3 data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">Step 3: Ask GPT the Right Questions</span></h3>\n<p><span style=\"color: #ffffff;\">Here’s the exact prompt we used:</span></p>\n<pre class=\"language-bash\"><code>You are an engineering insights assistant.\n\nHere is a snapshot of repository activity over the last 7 days:\n\nGroup your insights into these categories:\n- 🔴 Problems\n- 🟡 Watchlist\n- ✅ Good News\n\nFor each insight:\n1. What happened?\n2. Why does it matter?\n3. What should the team do?\n\nUse contributor names and PR titles. Be concise, actionable, and human.</code></pre>\n<p data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">GPT takes this and gives back a structured summary like:</span></p>\n<blockquote>\n<p><span style=\"color: #ffffff;\">🔴 Problems</span></p>\n<ul data-spread=\"false\">\n<li>\n<p><span style=\"color: #ffffff;\">PR \"Refactor Claims Logic\" by dasimandl has been open for 12 days without review.</span><br><span style=\"color: #ffffff;\">→ This might be blocking dependent work. Suggest assigning a reviewer.</span></p>\n</li>\n</ul>\n</blockquote>\n<blockquote>\n<p><span style=\"color: #ffffff;\">🟡 Watchlist</span></p>\n<ul data-spread=\"false\">\n<li>\n<p><span style=\"color: #ffffff;\">Mike made 56 commits this week. Others &lt;10. Consider balancing work.</span></p>\n</li>\n</ul>\n</blockquote>\n<blockquote>\n<p><span style=\"color: #ffffff;\">✅ Good News</span></p>\n<ul data-spread=\"false\">\n<li>\n<p><span style=\"color: #ffffff;\">No PRs merged without review. Team is following code quality standards.</span></p>\n</li>\n</ul>\n</blockquote>\n<p><span style=\"color: #ffffff;\">This feels <strong>like a real engineering lead wrote it</strong>.</span></p>\n<h3 data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">Step 4: Output, Deliver, Repeat</span></h3>\n<p><span style=\"color: #ffffff;\">We saved the result to a file, but it could easily be piped into Slack or Email:</span></p>\n<pre class=\"language-bash\"><code>gitview_autoscan_summary.txt</code></pre>\n<h3 data-pm-slice=\"1 1 []\"><span style=\"color: #ffffff;\">Why This Isn't Just a Script</span></h3>\n<p><span style=\"color: #ffffff;\">This is not about \"chatting with your GitHub.\" It's about <strong>having an agent that proactively reports what's going on</strong>without being asked.</span></p>\n<p><span style=\"color: #ffffff;\">Is it agentic AI? Not fully. It doesn't act on its own (yet). But it's a step toward AI that <em>observes, explains, and eventually helps manage</em> your engineering workflow.</span></p>\n<div><hr></div>\n<p> </p>",
+            "image": "https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png",
+            "author": {
+                "name": "Srinivas"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-21T23:42:11+08:00",
+            "date_modified": "2025-05-21T23:44:21+08:00"
+        },
+        {
             "id": "https://srinivas.io/animals-of-product-management-how-to-manage-them-2/",
             "url": "https://srinivas.io/animals-of-product-management-how-to-manage-them-2/",
             "title": "Animals of Product Management - How to manage them ?",
@@ -22,8 +37,8 @@
             "tags": [
                    "Product Management"
             ],
-            "date_published": "2023-07-17T12:14:33+05:30",
-            "date_modified": "2024-09-29T15:36:57+05:30"
+            "date_published": "2023-07-17T14:44:33+08:00",
+            "date_modified": "2024-09-29T18:06:57+08:00"
         },
         {
             "id": "https://srinivas.io/being-product-driven-vs-customer-driven/",
@@ -38,8 +53,8 @@
             "tags": [
                    "Product Management"
             ],
-            "date_published": "2023-05-24T16:12:55+05:30",
-            "date_modified": "2024-02-07T14:39:11+05:30"
+            "date_published": "2023-05-24T18:42:55+08:00",
+            "date_modified": "2024-02-07T17:09:11+08:00"
         },
         {
             "id": "https://srinivas.io/new-market-opportunity-payment-orchestration/",
@@ -54,8 +69,8 @@
             "tags": [
                    "Tech"
             ],
-            "date_published": "2023-05-24T11:37:49+05:30",
-            "date_modified": "2024-02-07T13:41:11+05:30"
+            "date_published": "2023-05-24T14:07:49+08:00",
+            "date_modified": "2024-02-07T16:11:11+08:00"
         },
         {
             "id": "https://srinivas.io/easiest-and-free-way-to-create-static-cms-sitesblogs/",
@@ -70,8 +85,8 @@
             "tags": [
                    "Tech"
             ],
-            "date_published": "2023-05-24T11:31:57+05:30",
-            "date_modified": "2024-02-07T14:15:40+05:30"
+            "date_published": "2023-05-24T14:01:57+08:00",
+            "date_modified": "2024-02-07T16:45:40+08:00"
         },
         {
             "id": "https://srinivas.io/best-product-management-books/",
@@ -86,8 +101,8 @@
             "tags": [
                    "Product Management"
             ],
-            "date_published": "2023-05-23T14:56:40+05:30",
-            "date_modified": "2024-02-07T14:27:40+05:30"
+            "date_published": "2023-05-23T17:26:40+08:00",
+            "date_modified": "2024-02-07T16:57:40+08:00"
         },
         {
             "id": "https://srinivas.io/should-it-be-market-product-fit/",
@@ -102,8 +117,8 @@
             "tags": [
                    "Product Management"
             ],
-            "date_published": "2023-05-23T14:45:18+05:30",
-            "date_modified": "2023-05-24T12:07:12+05:30"
+            "date_published": "2023-05-23T17:15:18+08:00",
+            "date_modified": "2023-05-24T14:37:12+08:00"
         },
         {
             "id": "https://srinivas.io/muda-and-its-relation-to-product-management/",
@@ -118,8 +133,8 @@
             "tags": [
                    "Product Management"
             ],
-            "date_published": "2020-06-23T12:35:34+05:30",
-            "date_modified": "2024-02-01T14:58:30+05:30"
+            "date_published": "2020-06-23T15:05:34+08:00",
+            "date_modified": "2024-02-01T17:28:30+08:00"
         }
     ]
 }

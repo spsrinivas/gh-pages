@@ -3,12 +3,116 @@
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2024-09-29T15:36:57+05:30</updated>
+    <updated>2025-05-21T23:44:21+08:00</updated>
     <author>
         <name>Srinivas</name>
     </author>
     <id>https://srinivas.io</id>
 
+    <entry>
+        <title>How I Built an AI Engineering Observer That Scans GitHub and Summarizes What Matters</title>
+        <author>
+            <name>Srinivas</name>
+        </author>
+        <link href="https://srinivas.io/how-i-built-an-ai-engineering-observer-that-scans-github-and-summarizes-what-matters/"/>
+        <id>https://srinivas.io/how-i-built-an-ai-engineering-observer-that-scans-github-and-summarizes-what-matters/</id>
+        <media:content url="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" medium="image" />
+
+        <updated>2025-05-21T23:44:21+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" alt="" />
+                    A real-world walkthrough of turning engineering activity into GPT-powered weekly insight reports (without dashboards or manual digging) Most engineering&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" class="type:primaryImage" alt="" /></p>
+                <h4 data-pm-slice="1 1 []"><span style="color: #ffffff;">A real-world walkthrough of turning engineering activity into GPT-powered weekly insight reports (without dashboards or manual digging)</span></h4>
+<p data-pm-slice="1 1 []"> </p>
+<p data-pm-slice="1 1 []"><span style="color: #ffffff;">Most engineering managers I know don’t want another dashboard.</span></p>
+<p><span style="color: #ffffff;">They want answers. They want clarity. They want to know:</span></p>
+<ul>
+<li><span style="color: #ffffff;">What’s slowing my team down?</span></li>
+<li><span style="color: #ffffff;">Is someone overloaded?</span></li>
+<li><span style="color: #ffffff;">Are we following good engineering hygiene?</span></li>
+</ul>
+<p><span style="color: #ffffff;">And most importantly:</span></p>
+<blockquote>
+<p><span style="color: #ffffff;">"Can someone just tell me what matters this week—without me digging through GitHub or Jira?"</span></p>
+</blockquote>
+<p><span style="color: #ffffff;">So I built it. A lightweight, AI-powered <strong>observer</strong> that connects to GitHub, scans real activity, and summarizes what happened, why it matters, and what to do—automatically.</span></p>
+<p><span style="color: #ffffff;">This isn’t a theoretical demo or a GPT playground. This is a production script running against a real company's GitHub data. Here’s how it works.</span></p>
+<div><hr></div>
+<h3><span style="color: #ffffff;">Step 1: Connect to the Real World (GitHub Data)</span></h3>
+<p><span style="color: #ffffff;">In my case, I had access to the GitView production Postgres database, which syncs GitHub activity: pull requests, commits, contributor info, reviews.</span></p>
+<p><span style="color: #ffffff;">Instead of connecting to GitHub APIs directly (which you could), I just queried the database like this:</span></p>
+<pre class="language-sql"><code>SELECT id, title, created_at, state, contributor_id
+FROM pull_requests
+WHERE created_at &gt;= CURRENT_DATE - INTERVAL '7 days';</code></pre>
+<p data-pm-slice="1 1 []"><span style="color: #ffffff;">We also fetched contributor names, commit counts, and merged PRs without reviews</span></p>
+<h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Step 2: Shape the Data for GPT</span></h3>
+<p><span style="color: #ffffff;">GPT can't make sense of raw DB tables. So we format the data into structured JSON, limited to the top 10 entries in each section:</span></p>
+<pre class="language-sql"><code>{
+  "stuck_pull_requests": [...],
+  "commit_activity": [...],
+  "contributors_with_no_commits": [...]
+}</code></pre>
+<p data-pm-slice="1 1 []"><span style="color: #ffffff;">We also fetched contributor names, commit counts, and merged PRs without reviews.</span></p>
+<h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Step 3: Ask GPT the Right Questions</span></h3>
+<p><span style="color: #ffffff;">Here’s the exact prompt we used:</span></p>
+<pre class="language-bash"><code>You are an engineering insights assistant.
+
+Here is a snapshot of repository activity over the last 7 days:
+
+Group your insights into these categories:
+- 🔴 Problems
+- 🟡 Watchlist
+- ✅ Good News
+
+For each insight:
+1. What happened?
+2. Why does it matter?
+3. What should the team do?
+
+Use contributor names and PR titles. Be concise, actionable, and human.</code></pre>
+<p data-pm-slice="1 1 []"><span style="color: #ffffff;">GPT takes this and gives back a structured summary like:</span></p>
+<blockquote>
+<p><span style="color: #ffffff;">🔴 Problems</span></p>
+<ul data-spread="false">
+<li>
+<p><span style="color: #ffffff;">PR "Refactor Claims Logic" by dasimandl has been open for 12 days without review.</span><br><span style="color: #ffffff;">→ This might be blocking dependent work. Suggest assigning a reviewer.</span></p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><span style="color: #ffffff;">🟡 Watchlist</span></p>
+<ul data-spread="false">
+<li>
+<p><span style="color: #ffffff;">Mike made 56 commits this week. Others &lt;10. Consider balancing work.</span></p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><span style="color: #ffffff;">✅ Good News</span></p>
+<ul data-spread="false">
+<li>
+<p><span style="color: #ffffff;">No PRs merged without review. Team is following code quality standards.</span></p>
+</li>
+</ul>
+</blockquote>
+<p><span style="color: #ffffff;">This feels <strong>like a real engineering lead wrote it</strong>.</span></p>
+<h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Step 4: Output, Deliver, Repeat</span></h3>
+<p><span style="color: #ffffff;">We saved the result to a file, but it could easily be piped into Slack or Email:</span></p>
+<pre class="language-bash"><code>gitview_autoscan_summary.txt</code></pre>
+<h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Why This Isn't Just a Script</span></h3>
+<p><span style="color: #ffffff;">This is not about "chatting with your GitHub." It's about <strong>having an agent that proactively reports what's going on</strong>without being asked.</span></p>
+<p><span style="color: #ffffff;">Is it agentic AI? Not fully. It doesn't act on its own (yet). But it's a step toward AI that <em>observes, explains, and eventually helps manage</em> your engineering workflow.</span></p>
+<div><hr></div>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Animals of Product Management - How to manage them ?</title>
         <author>
@@ -19,7 +123,7 @@
         <media:content url="https://srinivas.io/media/posts/15/animals.png" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2024-09-29T15:36:57+05:30</updated>
+        <updated>2024-09-29T18:06:57+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/15/animals.png" alt="" />
@@ -60,7 +164,7 @@
         <media:content url="https://srinivas.io/media/posts/13/undraw_product_iteration_kjok.png" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2024-02-07T14:39:11+05:30</updated>
+        <updated>2024-02-07T17:09:11+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/13/undraw_product_iteration_kjok.png" alt="" />
@@ -131,7 +235,7 @@
         <media:content url="https://srinivas.io/media/posts/12/jaconda-45-xxxl.png" medium="image" />
             <category term="Tech"/>
 
-        <updated>2024-02-07T13:41:11+05:30</updated>
+        <updated>2024-02-07T16:11:11+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/12/jaconda-45-xxxl.png" alt="" />
@@ -203,7 +307,7 @@
         <media:content url="https://srinivas.io/media/posts/11/Upgrade-xxxl.png" medium="image" />
             <category term="Tech"/>
 
-        <updated>2024-02-07T14:15:40+05:30</updated>
+        <updated>2024-02-07T16:45:40+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/11/Upgrade-xxxl.png" alt="" />
@@ -270,7 +374,7 @@
         <media:content url="https://srinivas.io/media/posts/10/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2024-02-07T14:27:40+05:30</updated>
+        <updated>2024-02-07T16:57:40+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/10/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" alt="" />
@@ -310,7 +414,7 @@
         <media:content url="https://srinivas.io/media/posts/9/istockphoto-183794221-612x612.jpg" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2023-05-24T12:07:12+05:30</updated>
+        <updated>2023-05-24T14:37:12+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/9/istockphoto-183794221-612x612.jpg" alt="" />
@@ -393,7 +497,7 @@
         <media:content url="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" medium="image" />
             <category term="Product Management"/>
 
-        <updated>2024-02-01T14:58:30+05:30</updated>
+        <updated>2024-02-01T17:28:30+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/7/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg" alt="" />
