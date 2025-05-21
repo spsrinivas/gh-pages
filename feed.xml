@@ -3,7 +3,7 @@
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2025-05-21T23:45:26+08:00</updated>
+    <updated>2025-05-21T23:50:24+08:00</updated>
     <author>
         <name>Srinivas</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" medium="image" />
             <category term="Tech"/>
 
-        <updated>2025-05-21T23:45:26+08:00</updated>
+        <updated>2025-05-21T23:50:24+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" alt="" />
@@ -78,30 +78,24 @@ For each insight:
 
 Use contributor names and PR titles. Be concise, actionable, and human.</code></pre>
 <p data-pm-slice="1 1 []"><span style="color: #ffffff;">GPT takes this and gives back a structured summary like:</span></p>
-<blockquote>
 <p><span style="color: #ffffff;">🔴 Problems</span></p>
 <ul data-spread="false">
 <li>
-<p><span style="color: #ffffff;">PR "Refactor Claims Logic" by dasimandl has been open for 12 days without review.</span><br><span style="color: #ffffff;">→ This might be blocking dependent work. Suggest assigning a reviewer.</span></p>
+<p><span style="color: #ffffff;">PR "Refactor Claims Logic" by John has been open for 12 days without review.</span><br><span style="color: #ffffff;">→ This might be blocking dependent work. Suggest assigning a reviewer.</span></p>
 </li>
 </ul>
-</blockquote>
-<blockquote>
 <p><span style="color: #ffffff;">🟡 Watchlist</span></p>
 <ul data-spread="false">
 <li>
 <p><span style="color: #ffffff;">Mike made 56 commits this week. Others &lt;10. Consider balancing work.</span></p>
 </li>
 </ul>
-</blockquote>
-<blockquote>
 <p><span style="color: #ffffff;">✅ Good News</span></p>
 <ul data-spread="false">
 <li>
 <p><span style="color: #ffffff;">No PRs merged without review. Team is following code quality standards.</span></p>
 </li>
 </ul>
-</blockquote>
 <p><span style="color: #ffffff;">This feels <strong>like a real engineering lead wrote it</strong>.</span></p>
 <h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Step 4: Output, Deliver, Repeat</span></h3>
 <p><span style="color: #ffffff;">We saved the result to a file, but it could easily be piped into Slack or Email:</span></p>
