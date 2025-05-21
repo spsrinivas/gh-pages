@@ -3,7 +3,7 @@
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2025-05-21T23:44:21+08:00</updated>
+    <updated>2025-05-21T23:45:26+08:00</updated>
     <author>
         <name>Srinivas</name>
     </author>
@@ -17,8 +17,9 @@
         <link href="https://srinivas.io/how-i-built-an-ai-engineering-observer-that-scans-github-and-summarizes-what-matters/"/>
         <id>https://srinivas.io/how-i-built-an-ai-engineering-observer-that-scans-github-and-summarizes-what-matters/</id>
         <media:content url="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" medium="image" />
+            <category term="Tech"/>
 
-        <updated>2025-05-21T23:44:21+08:00</updated>
+        <updated>2025-05-21T23:45:26+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" alt="" />
