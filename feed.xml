@@ -3,7 +3,7 @@
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2025-05-22T12:33:55+08:00</updated>
+    <updated>2025-05-22T12:54:14+08:00</updated>
     <author>
         <name>Srinivas</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" medium="image" />
             <category term="Tech"/>
 
-        <updated>2025-05-22T12:33:55+08:00</updated>
+        <updated>2025-05-22T12:54:14+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" alt="" />
@@ -111,7 +111,13 @@ Use contributor names and PR titles. Be concise, actionable, and human.</code></
 <li data-start="418" data-end="435"><span style="color: #ffffff;">Spotting early signs of developer burnout</span></li>
 </ul>
 <h3 data-start="510" data-end="565"><span style="color: #ffffff;"><strong data-start="510" data-end="526">What’s next?</strong></span></h3>
-<p class="" data-start="510" data-end="565"><span style="color: #ffffff;">Expand this into a product offering.</span></p>
+<p class="" data-start="1851" data-end="1866"><span style="color: #ffffff;">Imagine this:</span></p>
+<ul>
+<li data-start="1871" data-end="1994"><span style="color: #ffffff;">Your Slack gets a Monday morning message saying, “3 PRs are stuck. John’s overloaded. One repo had no reviews last week.”</span></li>
+<li data-start="1999" data-end="2057"><span style="color: #ffffff;">You click once to assign reviewers or snooze an insight.</span></li>
+<li data-start="1999" data-end="2057"><span style="color: #ffffff;">Over time, it learns what you care about and improves.</span></li>
+</ul>
+<p><span style="color: #ffffff;">That’s the future I want to build. This is step one.</span></p>
 <p class="" data-start="567" data-end="624"><span style="color: #ffffff;">Here’s my hypothesis based on what I hear from clients:</span></p>
 <blockquote data-start="625" data-end="746">
 <p class="" data-start="627" data-end="746"><span style="color: #ffffff;">“Don’t make me search for insights or dashboards.</span><br data-start="676" data-end="679"><span style="color: #ffffff;">Just tell me what’s going on, why it matters, and how to fix it.”</span></p>
