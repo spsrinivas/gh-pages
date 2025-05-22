@@ -3,14 +3,14 @@
     <title>Srinivas</title>
     <link href="https://srinivas.io/feed.xml" rel="self" />
     <link href="https://srinivas.io" />
-    <updated>2025-05-21T23:50:24+08:00</updated>
+    <updated>2025-05-22T12:33:55+08:00</updated>
     <author>
         <name>Srinivas</name>
     </author>
     <id>https://srinivas.io</id>
 
     <entry>
-        <title>How I Built an AI Engineering Observer That Scans GitHub and Summarizes What Matters</title>
+        <title>How I Built an AI Engineering Observer That Scans GitHub and Summarizes What Matters - in 10 min</title>
         <author>
             <name>Srinivas</name>
         </author>
@@ -19,7 +19,7 @@
         <media:content url="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" medium="image" />
             <category term="Tech"/>
 
-        <updated>2025-05-21T23:50:24+08:00</updated>
+        <updated>2025-05-22T12:33:55+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" alt="" />
@@ -30,7 +30,6 @@
             <![CDATA[
                     <p><img src="https://srinivas.io/media/posts/16/Screenshot-2025-05-21-at-11.41.53-PM.png" class="type:primaryImage" alt="" /></p>
                 <h4 data-pm-slice="1 1 []"><span style="color: #ffffff;">A real-world walkthrough of turning engineering activity into GPT-powered weekly insight reports (without dashboards or manual digging)</span></h4>
-<p data-pm-slice="1 1 []"> </p>
 <p data-pm-slice="1 1 []"><span style="color: #ffffff;">Most engineering managers I know don’t want another dashboard.</span></p>
 <p><span style="color: #ffffff;">They want answers. They want clarity. They want to know:</span></p>
 <ul>
@@ -51,9 +50,9 @@
 <pre class="language-sql"><code>SELECT id, title, created_at, state, contributor_id
 FROM pull_requests
 WHERE created_at &gt;= CURRENT_DATE - INTERVAL '7 days';</code></pre>
-<p data-pm-slice="1 1 []"><span style="color: #ffffff;">We also fetched contributor names, commit counts, and merged PRs without reviews</span></p>
+<p data-pm-slice="1 1 []"><span style="color: #ffffff;">I also fetched contributor names, commit counts, and merged PRs without reviews</span></p>
 <h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Step 2: Shape the Data for GPT</span></h3>
-<p><span style="color: #ffffff;">GPT can't make sense of raw DB tables. So we format the data into structured JSON, limited to the top 10 entries in each section:</span></p>
+<p><span style="color: #ffffff;">GPT can't make sense of raw DB tables. So I formatted the data into structured JSON, limited to the top 10 entries in each section:</span></p>
 <pre class="language-sql"><code>{
   "stuck_pull_requests": [...],
   "commit_activity": [...],
@@ -98,13 +97,25 @@ Use contributor names and PR titles. Be concise, actionable, and human.</code></
 </ul>
 <p><span style="color: #ffffff;">This feels <strong>like a real engineering lead wrote it</strong>.</span></p>
 <h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Step 4: Output, Deliver, Repeat</span></h3>
-<p><span style="color: #ffffff;">We saved the result to a file, but it could easily be piped into Slack or Email:</span></p>
+<p><span style="color: #ffffff;">I saved the result to a file, but it could easily be piped into Slack or Email:</span></p>
 <pre class="language-bash"><code>gitview_autoscan_summary.txt</code></pre>
 <h3 data-pm-slice="1 1 []"><span style="color: #ffffff;">Why This Isn't Just a Script</span></h3>
 <p><span style="color: #ffffff;">This is not about "chatting with your GitHub." It's about <strong>having an agent that proactively reports what's going on</strong>without being asked.</span></p>
 <p><span style="color: #ffffff;">Is it agentic AI? Not fully. It doesn't act on its own (yet). But it's a step toward AI that <em>observes, explains, and eventually helps manage</em> your engineering workflow.</span></p>
 <div><hr></div>
-<p> </p>
+<h3 data-start="117" data-end="415"><span style="color: #ffffff;"><strong data-start="117" data-end="142">What was the outcome?</strong></span></h3>
+<p class="" data-start="117" data-end="415"><span style="color: #ffffff;">I shared this with the engineering leaders who own the data (along with a few more sensitive insights about what managers can do).</span><br data-start="275" data-end="278"><span style="color: #ffffff;">To my surprise, their feedback was overwhelmingly positive — they said the insights were not only relevant but actionable. Things like:</span></p>
+<ul>
+<li data-start="418" data-end="435"><span style="color: #ffffff;">Reassigning PRs</span></li>
+<li data-start="418" data-end="435"><span style="color: #ffffff;">Identifying blocked work</span></li>
+<li data-start="418" data-end="435"><span style="color: #ffffff;">Spotting early signs of developer burnout</span></li>
+</ul>
+<h3 data-start="510" data-end="565"><span style="color: #ffffff;"><strong data-start="510" data-end="526">What’s next?</strong></span></h3>
+<p class="" data-start="510" data-end="565"><span style="color: #ffffff;">Expand this into a product offering.</span></p>
+<p class="" data-start="567" data-end="624"><span style="color: #ffffff;">Here’s my hypothesis based on what I hear from clients:</span></p>
+<blockquote data-start="625" data-end="746">
+<p class="" data-start="627" data-end="746"><span style="color: #ffffff;">“Don’t make me search for insights or dashboards.</span><br data-start="676" data-end="679"><span style="color: #ffffff;">Just tell me what’s going on, why it matters, and how to fix it.”</span></p>
+</blockquote>
             ]]>
         </content>
     </entry>
